@@ -418,7 +418,7 @@ function [rm_ax,var_ax,score,rm_prof,innov_prof,X_est,err_mat] = evalCandidate_U
     rm_prof = vecnorm(err_mat,2,2);
 end
 
-% ---- Trajectory generator (same physics/limits as yours) ----
+% ---- Trajectory generator (same physics) ----
 function traj = final_traj_sim_5min_random
     rng('shuffle'); dt=0.01; dur=300; N=dur/dt;
     box=[-1200 1200; -1200 1200; 40 700];
@@ -439,3 +439,4 @@ function traj = final_traj_sim_5min_random
     end
     for i=1:3, traj(:,i)=min(max(traj(:,i),box(i,1)),box(i,2)); end
 end
+
