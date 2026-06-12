@@ -7,8 +7,7 @@
 [![MATLAB](https://img.shields.io/badge/matlab-compatible-success.svg)](https://www.mathworks.com/products/matlab.html)
 
 ## 📋 Overview
-
-This project implements state-of-the-art drone tracking algorithms combining classical filtering techniques with modern machine learning approaches. It includes implementations of Extended Kalman Filter (EKF), Unscented Kalman Filter (UKF), Interactive Multiple Model (IMM), and optimized RL-enhanced filtering methods.
+ Drone tracking algorithms combining classical filtering techniques with modern machine learning approaches. It includes implementations of Extended Kalman Filter (EKF), Unscented Kalman Filter (UKF), Interactive Multiple Model (IMM), and optimized RL-enhanced filtering methods.
 
 ## ✨ Features
 
